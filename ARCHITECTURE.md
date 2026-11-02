@@ -109,4 +109,5 @@ The SQLite database stores the following main record types:
 ---
 
 **Project:** ProjectPulse AI 
+
 **Purpose:** NxtWave Associate Project Management Intern assignment
