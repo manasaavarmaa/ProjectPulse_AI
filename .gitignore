@@ -1,0 +1,54 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Python virtual environment
+.venv/
+venv/
+env/
+backend/.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+backend/projectpulse.db
+
+# Node.js dependencies
+node_modules/
+frontend/node_modules/
+
+# Frontend build output
+dist/
+build/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Test and coverage files
+.coverage
+htmlcov/
